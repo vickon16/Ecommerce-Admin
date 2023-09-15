@@ -15,11 +15,11 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { ProductColumn } from "./productColumn";
+import { ProductsColumn } from "./productColumn";
 import { API, errorToast } from "@/lib/utils";
 
 interface ProductsCellActionProps {
-  productsData: ProductColumn;
+  productsData: ProductsColumn;
 }
 
 const ProductsCellAction: React.FC<ProductsCellActionProps> = ({
